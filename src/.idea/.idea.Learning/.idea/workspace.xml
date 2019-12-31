@@ -1,33 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee425151-ac8b-4c32-92b0-001246f747b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseCollectionObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Base/IDatabaseDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/DataServices.MongoDB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/DataServices.MongoDB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mongodb/src/app/Learning.DockerMongoDB.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongodb/src/app/Learning.DockerMongoDB.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Base/IDatabaseDataService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/Collection.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/Database.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollection.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionDataObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseDataObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" />
+        <option value="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1Vh14owmVIYVIES59DOzNf8Aorg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-mongodb/src/app/Learning.DockerMongoDB.App.csproj" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/docker-mongodb/src/app/bin/Debug/netcoreapp3.0/Learning.DockerMongoDB.App.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docker-mongodb/src/app/bin/Debug/netcoreapp3.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/docker-mongodb/src/app/Learning.DockerMongoDB.App.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee425151-ac8b-4c32-92b0-001246f747b8" name="Default Changelist" comment="" />
+      <created>1577690323758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577690323758</updated>
+      <workItem from="1577690325280" duration="730000" />
+      <workItem from="1577768618412" duration="5793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

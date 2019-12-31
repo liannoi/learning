@@ -5,4 +5,8 @@
         <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\data-services\mongodb\DataServices.MongoDB.csproj" />
+    </ItemGroup>
+
 </Project>
