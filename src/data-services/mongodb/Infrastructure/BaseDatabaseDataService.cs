@@ -1,11 +1,13 @@
+using System;
+using System.Linq.Expressions;
 using DataServices.MongoDB.Base;
 using DataServices.MongoDB.Base.DataObjects;
-using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 
 namespace DataServices.MongoDB.Infrastructure
 {
-    public class BaseDatabaseDataService : DatabaseDataService
+    public class BaseDatabaseDataService<TDocument> : DatabaseDataService, IBaseDatabaseDataService<TDocument>
     {
         public BaseDatabaseDataService(IDatabaseObject database, IDatabaseCollectionObject databaseCollection) : base(
             database, databaseCollection)
@@ -16,25 +18,31 @@ namespace DataServices.MongoDB.Infrastructure
         {
         }
 
-        public void BadInsert()
+        public IMongoCollection<TDocument> Documents => Database.GetCollection<TDocument>(Collection.Name);
+
+        public virtual void Add(TDocument document)
         {
-            var document = new BsonDocument
-            {
-                {"student_id", 10000},
-                {
-                    "scores",
-                    new BsonArray
-                    {
-                        new BsonDocument {{"type", "exam"}, {"score", 88.12334193287023}},
-                        new BsonDocument {{"type", "quiz"}, {"score", 74.92381029342834}},
-                        new BsonDocument {{"type", "homework"}, {"score", 89.97929384290324}},
-                        new BsonDocument {{"type", "homework"}, {"score", 82.12931030513218}}
-                    }
-                },
-                {"class_id", 480}
-            };
-            var col = Database.GetCollection<BsonDocument>("tmp");
-            col.InsertOne(document);
+            Documents.InsertOne(document);
+        }
+
+        public virtual DeleteResult Remove(Expression<Func<TDocument, bool>> filter)
+        {
+            return Documents.DeleteOne(filter);
+        }
+
+        public virtual IMongoQueryable<TDocument> Find()
+        {
+            return Documents.AsQueryable();
+        }
+
+        public virtual IFindFluent<TDocument, TDocument> Find(Expression<Func<TDocument, bool>> filter)
+        {
+            return Documents.Find(filter);
+        }
+
+        public virtual ReplaceOneResult Replace(Expression<Func<TDocument, bool>> filter, TDocument document)
+        {
+            return Documents.ReplaceOne(filter, document, new UpdateOptions {IsUpsert = true});
         }
     }
 }
