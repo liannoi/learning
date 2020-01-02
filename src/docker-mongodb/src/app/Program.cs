@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using DataServices.MongoDB.Base.DataObjects;
 using DataServices.MongoDB.Infrastructure;
 using DataServices.MongoDB.Infrastructure.Helpers;
@@ -16,16 +15,15 @@ namespace Learning.DockerMongoDB.App
                 new DatabaseObject {Name = settingsReader.ReadDatabaseName()},
                 new DatabaseCollectionObject {Name = settingsReader.ReadCollectionName("name-collection-01")});
 
-            /*
+
             dataService.Add(new Person
             {
                 FirstName = "Jack",
                 LastName = "Daniels"
             });
-            */
 
-            var firstUser = dataService.Find().FirstOrDefault();
-            Console.WriteLine(firstUser.FirstName);
+            /*var firstUser = dataService.Find().FirstOrDefault();
+            Console.WriteLine(firstUser.FirstName);*/
 
             Console.WriteLine("All completed.");
             Console.ReadLine();
