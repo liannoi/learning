@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServices.MongoDB", "data-services\mongodb\DataServices.MongoDB.csproj", "{F3AB8EC8-CCED-4D41-A1AF-896B019580DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.DockerMongoDB.App", "docker-mongodb\src\app\Learning.DockerMongoDB.App.csproj", "{4F6FA44A-9359-4B28-8072-384E1AA1E793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3AB8EC8-CCED-4D41-A1AF-896B019580DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AB8EC8-CCED-4D41-A1AF-896B019580DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AB8EC8-CCED-4D41-A1AF-896B019580DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AB8EC8-CCED-4D41-A1AF-896B019580DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6FA44A-9359-4B28-8072-384E1AA1E793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6FA44A-9359-4B28-8072-384E1AA1E793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6FA44A-9359-4B28-8072-384E1AA1E793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6FA44A-9359-4B28-8072-384E1AA1E793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

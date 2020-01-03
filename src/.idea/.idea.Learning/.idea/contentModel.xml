@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Learning.-948119904.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="data-services/mongodb" t="IncludeRecursive">
+        <e p="Base" t="Include">
+          <e p="DatabaseDataService.cs" t="Include" />
+          <e p="DataObjects" t="Include">
+            <e p="DatabaseCollectionObject.cs" t="Include" />
+            <e p="DatabaseObject.cs" t="Include" />
+            <e p="IDatabaseCollectionObject.cs" t="Include" />
+            <e p="IDatabaseObject.cs" t="Include" />
+          </e>
+          <e p="IDatabaseDataService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="data-service-mongodb.json" t="Include" />
+        <e p="DataServices.MongoDB.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include">
+          <e p="BaseDatabaseDataService.cs" t="Include" />
+          <e p="Helpers" t="Include">
+            <e p="ISettingsReader.cs" t="Include" />
+            <e p="ReadDataServiceSettings.cs" t="Include" />
+            <e p="SettingsReader.cs" t="Include" />
+          </e>
+          <e p="IBaseDatabaseDataService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DataServices.MongoDB.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="docker-mongodb/src/app" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Learning.DockerMongoDB.App.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Learning.DockerMongoDB.App.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Learning.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
