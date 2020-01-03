@@ -11,7 +11,7 @@ services:
         networks:
             - dockernosql-network
         volumes:
-            - "./data:/data/db"
+            - "./docker-mongodb-volume:/data/db"
     mongo-express:
         image: mongo-express
         ports:
@@ -23,11 +23,13 @@ services:
             - mongo
         networks:
             - dockernosql-network
-#   app:
-#     build: .
-#     restart: always
-#     networks:
-#       - dockernosql-network
+        restart: always
+    app:
+        build: .
+        restart: always
+        networks:
+            - dockernosql-network
+
 networks:
     dockernosql-network:
         driver: bridge

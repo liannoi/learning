@@ -12,8 +12,15 @@ namespace Learning.DockerMongoDB.App
             var settingsReader = new SettingsReader("data-service-mongodb.json");
 
             var dataService = new BaseDatabaseDataService<Person>(
-                new DatabaseObject {Name = settingsReader.ReadDatabaseName()},
-                new DatabaseCollectionObject {Name = settingsReader.ReadCollectionName("name-collection-01")});
+                new DatabaseObject
+                {
+                    Name = settingsReader.ReadDatabaseName(),
+                    DBMSAddress = settingsReader.ReadDBMSAddress()
+                },
+                new DatabaseCollectionObject
+                {
+                    Name = settingsReader.ReadCollectionName("name-collection-01")
+                });
 
 
             dataService.Add(new Person

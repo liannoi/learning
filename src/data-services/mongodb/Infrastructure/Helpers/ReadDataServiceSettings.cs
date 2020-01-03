@@ -23,5 +23,10 @@ namespace DataServices.MongoDB.Infrastructure.Helpers
         {
             return ReadKey(settingsReader, keyNameCollection);
         }
+
+        public static string ReadDBMSAddress(this ISettingsReader settingsReader)
+        {
+            return ReadKey(settingsReader, "DBMSAddress");
+        }
     }
 }

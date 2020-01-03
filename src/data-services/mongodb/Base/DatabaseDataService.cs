@@ -9,8 +9,7 @@ namespace DataServices.MongoDB.Base
 
         protected DatabaseDataService(IDatabaseObject database, IDatabaseCollectionObject databaseCollection)
         {
-            var client = new MongoClient(@"mongodb://root:example@host.docker.internal:27017");
-            Database = client.GetDatabase(database.Name);
+            Database = new MongoClient(database.DBMSAddress).GetDatabase(database.Name);
             Collection = databaseCollection;
         }
 
