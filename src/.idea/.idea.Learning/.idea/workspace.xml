@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee425151-ac8b-4c32-92b0-001246f747b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,8 @@
       <workItem from="1577768618412" duration="10809000" />
       <workItem from="1577896506983" duration="3098000" />
       <workItem from="1577943116664" duration="7197000" />
-      <workItem from="1578032907194" duration="1508000" />
+      <workItem from="1578032907194" duration="1660000" />
+      <workItem from="1578045156719" duration="840000" />
     </task>
     <servers />
   </component>
@@ -154,22 +149,22 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="474" y="275" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.23.1440.798@0.23.1440.798" timestamp="1577952160974" />
-    <state width="1394" height="204" key="GridCell.Tab.0.bottom" timestamp="1577902030790">
+    <state width="1394" height="204" key="GridCell.Tab.0.bottom" timestamp="1578046228013">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1394" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1577902030790" />
-    <state width="1394" height="204" key="GridCell.Tab.0.center" timestamp="1577902030788">
+    <state width="1394" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1578046228013" />
+    <state width="1394" height="204" key="GridCell.Tab.0.center" timestamp="1578046228012">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1394" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1577902030788" />
-    <state width="1394" height="204" key="GridCell.Tab.0.left" timestamp="1577902030788">
+    <state width="1394" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1578046228012" />
+    <state width="1394" height="204" key="GridCell.Tab.0.left" timestamp="1578046228012">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1394" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1577902030788" />
-    <state width="1394" height="204" key="GridCell.Tab.0.right" timestamp="1577902030789">
+    <state width="1394" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1578046228012" />
+    <state width="1394" height="204" key="GridCell.Tab.0.right" timestamp="1578046228012">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1394" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1577902030789" />
+    <state width="1394" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1578046228012" />
     <state x="385" y="142" width="672" height="678" key="search.everywhere.popup" timestamp="1578033166174">
       <screen x="0" y="23" width="1440" height="798" />
     </state>

@@ -23,7 +23,6 @@ services:
             - mongo
         networks:
             - dockernosql-network
-        restart: always
     app:
         build: .
         restart: always
