@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee425151-ac8b-4c32-92b0-001246f747b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseCollectionObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseCollectionObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Base/IDatabaseDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Base/IDatabaseDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/IBaseDatabaseDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/data-services/mongodb/Infrastructure/IBaseDatabaseDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mongodb/src/app/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongodb/src/app/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +25,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Desktop/Learning/DockerMongoDB/DockerMongoDBApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,17 +48,20 @@
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollection.cs" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionDataObject.cs" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseDataObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseCollectionObject.cs" />
-        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" />
-        <option value="$PROJECT_DIR$/docker-mongodb/src/app/Person.cs" />
-        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" />
-        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/IBaseDatabaseDataService.cs" />
-        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/DatabaseObject.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseCollectionObject.cs" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DataObjects/IDatabaseObject.cs" />
         <option value="$PROJECT_DIR$/data-services/mongodb/Base/DatabaseDataService.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Base/IDatabaseDataService.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ISettingsReader.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/ReadDataServiceSettings.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/Helpers/SettingsReader.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/BaseDatabaseDataService.cs" />
+        <option value="$PROJECT_DIR$/data-services/mongodb/Infrastructure/IBaseDatabaseDataService.cs" />
         <option value="$PROJECT_DIR$/docker-mongodb/src/app/Program.cs" />
-        <option value="$PROJECT_DIR$/data-services/mongodb/data-service-mongodb.json" />
+        <option value="$PROJECT_DIR$/docker-mongodb/src/app/Person.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +136,7 @@
       <workItem from="1577943116664" duration="7197000" />
       <workItem from="1578032907194" duration="1660000" />
       <workItem from="1578045156719" duration="840000" />
+      <workItem from="1578249180081" duration="229000" />
     </task>
     <servers />
   </component>
